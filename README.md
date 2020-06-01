@@ -18,6 +18,12 @@
 	ng serve
 ```
 
+- La aplicación está expueta por el puerto 4200, por lo cual se accede por la siguiente URL.
+
+```shell
+	http://localhost:4200
+```
+
 ## Importante
 
 - En el archivo `environment.ts` se encuentra definida la ruta del servicio REST a consumir.
