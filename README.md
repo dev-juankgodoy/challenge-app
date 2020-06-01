@@ -1,27 +1,27 @@
 # ChallengeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pasos para levantar la aplicación en desarrollo
 
-## Code scaffolding
+- Instalar Nodejs.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Para instalar todas las dependencias de la aplicación, ejecutar el siguiente comando en el directorio del proyecto.
 
-## Build
+```shell
+	npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Para levantar el servidor, ejecutar el siguiente comando en el directorio del proyecto.
 
-## Running unit tests
+```shell
+	ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Importante
 
-## Running end-to-end tests
+- En el archivo `environment.ts` se encuentra definida la ruta del servicio REST a consumir.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
