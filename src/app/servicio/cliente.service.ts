@@ -8,6 +8,7 @@ import { Store } from '@ngrx/store';
 import { AppStore } from '../app.reducer';
 
 import {CambiaMensajeMensajeErrorAction, CambiaEstadoMensajeErrorAction} from '../app.actions';
+import { environment } from '../../environments/environment';
 
 
 @Injectable({
@@ -15,7 +16,7 @@ import {CambiaMensajeMensajeErrorAction, CambiaEstadoMensajeErrorAction} from '.
 })
 export class ClienteService {
 
-  private clienteAPI = 'http://localhost:3000';
+  private clienteAPI = environment.api;
   
 
   constructor(
