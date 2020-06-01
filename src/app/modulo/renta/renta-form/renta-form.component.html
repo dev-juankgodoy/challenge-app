@@ -1,0 +1,10 @@
+<form [formGroup]="formRenta" (ngSubmit)="continuar($event)">
+    <div class="form-group">
+        <label for="exampleInputEmail1">¿Cu&aacute;l es tu renta l&iacute;quida/ingreso mensual?</label>
+        <input type="text" class="form-control" formControlName="renta" placeholder="Ej: $400.000">
+        <div *ngIf="formRenta.get('renta').touched && formRenta.get('renta').invalid" class="alert alert-danger">
+            <div *ngIf="formRenta.get('renta').errors.required">{{mensajeValidacionRenta}}</div>
+        </div>
+    </div>
+    <button type="submit" [disabled]="formRenta.invalid" style="width: 100%; background-color: rgb(0, 133, 54);" class="btn btn-primary btn-lg">Continuar</button>
+</form>

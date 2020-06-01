@@ -1,0 +1,18 @@
+.img-ben{
+    width: 75px;
+    float: left;
+    margin-right: 3px;
+}
+
+.label-ben{
+    float: left;
+    margin-top: 4px;
+    color: rgb(147, 148, 153);
+    width: 114px;
+}
+
+@media screen and (max-width: 1440px) {
+    .img-ben{
+        margin-right: 82px;
+    }
+}

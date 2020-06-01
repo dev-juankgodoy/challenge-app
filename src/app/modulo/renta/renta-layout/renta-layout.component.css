@@ -1,0 +1,58 @@
+#div-centro-renta {
+    height: auto;
+    width: 100%;
+    background-image: url('../../../../assets/img/fondo-renta.jpg');
+    background-repeat: no-repeat;
+    padding-top: 111px;
+    background-size: cover;
+}
+
+#form-centro-renta{
+    width: 40%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    /* left: 591px; */
+    /* margin-top: 79px; */
+    margin-left: 644px;
+    padding: 65px;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, .2);
+}
+
+
+@media screen and (max-width: 1024px) {
+    #form-centro-renta {
+        width: 40%;
+        height: auto;
+        background-color: #ffffff;
+        position: relative;
+        margin-left: 539px;
+        padding: 37px;
+        box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, .2);
+    }
+}
+
+@media screen and (max-width: 786px) {
+    #div-centro-renta {
+        height: 217px;
+        width: 100%;
+        background-image: url('../../../../assets/img/fondo-renta.jpg');
+        background-repeat: no-repeat;
+        padding-top: 111px;
+        background-size: cover;
+    }
+
+    #form-centro-renta {
+        width: 71%;
+        height: auto;
+        background-color: #ffffff;
+        position: absolute;
+        left: -475px;
+        /* margin-left: 436px; */
+        padding: 14px;
+        box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, .2);
+        top: 260px;
+        font-size: 12px;
+    }
+}
+
